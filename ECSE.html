@@ -1,0 +1,401 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>ECSE Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
+
+    <style>
+      body{
+        font-family: 'Times New Roman';
+      }
+      .main-container{
+        color: white;
+        font-weight: 530;
+        display: inline-block;
+        font-size: 38px;
+        margin-top: 200px;
+        margin-left: 40px;
+        width: 62%;
+
+      }
+      .photo{
+        width: 220px;
+        display:inline-block;
+        box-shadow: 10px 10px 10px rgb(253, 104, 4);
+        border-radius: 30px;
+        padding: 4px;
+        background-color: rgb(253, 104, 4);
+      }
+      .photo-jpg{
+        display:inline-block;
+        vertical-align: middle;
+        width:21%;
+        margin-bottom: 25px;
+
+      }
+      .daksh-gurav{
+        
+        color:rgb(253, 104, 4);
+        font-family: 'Norican','Times New Roman';
+        font-size: 55px;
+        font-weight:600;
+      }
+      .vertical-bar{
+        color: rgb( 253, 104, 4);
+        font-size: 50px;
+        font-weight: 700;
+      }
+      .engineering-student{
+        color:rgb(253,104,4);
+
+      }
+      .sidebar{
+        position: fixed;
+        background-color: rgb(56, 52, 52);
+        top:0;
+        bottom:0;
+        left:0;
+        padding: 1px;
+        width:18%;
+        border: solid;
+        border-width: 2px;
+        border-color: rgb( 253, 104, 4);
+      }
+      .about-info{
+        color: white;
+        margin-left: 40px;
+        font-weight: 530px;
+        font-size: 38px;
+        background-color: rgb( 253, 104, 4);
+        display: inline-block;
+        border-radius: 40px;
+        width: 250px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+      }
+      .about-information{
+        margin-left: 40px;
+        font-size: 20px;
+        width: 90%;
+      }
+      .about-information-2{
+        margin-left: 40px;
+        font-size: 20px;
+        margin-top: 10px;
+        width: 90%;
+      }
+      .education{
+        color: white;
+        margin-left: 40px;
+        font-weight: 530px;
+        font-size: 38px;
+        background-color: rgb( 253, 104, 4);
+        display: block;
+        border-radius: 40px;
+        width: 230px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        padding-bottom: 5px;
+      }
+      .ssc{
+        margin-left: 40px;
+        background-color: rgb(56, 52, 52);
+        width: 400px;
+        height: 150px;
+        display: inline-block;
+        border-style: solid;
+        border-color: rgb( 253, 104, 4);
+        border-radius: 40px;
+        margin-top: 20px;
+      }
+      .hsc{
+        background-color: rgb(56, 52, 52);
+        width: 400px;
+        height: 150px;
+        display: inline-block;
+        margin-left: 90px;
+        border-style: solid;
+        border-color: rgb( 253, 104, 4);
+        border-radius: 40px;
+        margin-top: 20px;
+      }
+      .std{
+        color: white;
+        background-color: rgb( 253, 104, 4);
+        width: 50px;
+        font-size: 25px;
+        margin-top: 10px;
+        border-radius: 8px;
+        margin-left: 170px;
+        padding-left: 3px; 
+      }
+      .std-info{
+        font-size: 20px;
+        margin-left: 15px;
+        padding-right: 2px;
+      }
+      .skills{
+        color: white;
+        margin-left: 40px;
+        font-weight: 530px;
+        font-size: 38px;
+        background-color: rgb( 253, 104, 4);
+        display: block;
+        border-radius: 40px;
+        width: 160px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        padding-bottom: 5px;
+      }
+      .skills-info{
+        margin-left: 40px;
+        font-size: 20px;
+        margin-top: 30px;
+        width: 90%;
+      }
+      .python{
+        margin-left: 100px;
+        width: 110px;
+      }
+      .Certificates{
+        color: white;
+        margin-left: 40px;
+        font-weight: 530px;
+        font-size: 38px;
+        background-color: rgb( 253, 104, 4);
+        display: block;
+        border-radius: 40px;
+        width: 250px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        padding-bottom: 5px;
+      }
+      .Certificates-photo{
+        margin-left: 100px;
+        margin-top: 25px;
+        font-size: 20px;
+      }
+      .symbol{
+        margin-top: 20px;
+        margin-left: 100px;
+        background-color: white;
+        width: 30px;
+        padding-left: 3px;
+        padding-top: 3px;
+      }
+
+      .symbol-info{
+        display: inline-block;
+        background-color: rgb( 253, 104, 4);
+        padding: 3px;
+        border-radius: 6px;
+        margin-left: 55px;
+        font-size: 22px;
+        margin-top: 5px;
+      }
+      .symbol-mail{
+        margin-top: 20px;
+        margin-left: 95px;
+      }
+      .symbol-info-mail{
+        display: inline-block;
+        background-color: rgb( 253, 104, 4);
+        padding: 3px;
+        border-radius: 6px;
+        margin-left: 10px;
+        font-size: 20px;
+        margin-top: 5px;
+      }
+      .symbol-linkdin{
+        margin-top: 20px;
+        margin-left: 93px;
+      }
+      .symbol-info-linkdin{
+        display: inline-block;
+        background-color: rgb( 253, 104, 4);
+        padding: 3px;
+        border-radius: 6px;
+        margin-left: 60px;
+        font-size: 20px;
+        margin-top: 5px;
+      }
+      .symbol-github{
+        margin-top: 20px;
+        margin-left: 90px;
+      }
+      .symbol-info-github{
+        display: inline-block;
+        background-color: rgb( 253, 104, 4);
+        padding: 3px;
+        border-radius: 6px;
+        margin-left: 70px;
+        font-size: 20px;
+        margin-top: 5px;
+      }
+      .symbol-location{
+        margin-top: 20px;
+        margin-left: 97px;
+      }
+      .symbol-info-location{
+        display: inline-block;
+        background-color: rgb( 253, 104, 4);
+        padding: 3px;
+        border-radius: 6px;
+        margin-left: 20px;
+        font-size: 20px;
+        margin-top: 5px;
+      }
+      .symbol-insta{
+        margin-top: 20px;
+        margin-left: 97px;
+      }
+      .symbol-info-insta{
+        display: inline-block;
+        background-color: rgb( 253, 104, 4);
+        padding: 3px;
+        border-radius: 6px;
+        margin-left: 70px;
+        font-size: 20px;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body style="background-color:rgb(14, 13, 13);margin-left: 230px;height: 2300px;color: white;">
+      <!--Main Container-->
+      <div class="sidebar">
+        
+        <div>
+          <div class="symbol">
+            <img src="icons8-call-26.png">
+          </div>
+          <div class="symbol-info">
+            <a href="tel:8591407772"> 8591407772 </a>
+          </div>
+        </div>
+        <div>
+          <div class="symbol-mail">
+            <img src="icons8-gmail-48.png">
+          </div>
+          <div class="symbol-info-mail">
+           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dakshgurav53@gmail.com" target="_blank">dakshgurav53@gmail.com</a> 
+          </div>
+        </div>
+        <div>
+          <div class="symbol-linkdin">
+            <img src="icons8-linkedin-48.png">
+          </div>
+          <div class="symbol-info-linkdin">
+            <a href="https://www.linkedin.com/in/daksh-gurav-900782352?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">Daksh Gurav</a>
+          </div>
+        </div>
+        <div>
+          <div class="symbol-github">
+            <img src="icons8-github-50.png">
+          </div>
+          <div class="symbol-info-github">
+            <a href="https://github.com/daksh268" target="_blank">daksh268</a>
+          </div>
+        </div>
+        <div>
+          <div class="symbol-location">
+            <img src="icons8-location-30.png">
+          </div>
+          <div class="symbol-info-location">
+           Grant Road,Mumbai-06
+          </div>
+        </div>
+        <div>
+          <div class="symbol-insta">
+            <img src="icons8-instagram-48.png">
+          </div>
+          <div class="symbol-info-insta">
+            <a href="https://www.instagram.com/_.daksh_06/#" target="_ blank">_.daksh_06</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-container">
+        
+        <div>
+          <p>Hello,my name is <span class="daksh-gurav"> Daksh Gurav</span></p>
+        </div>
+        <div>
+          <p>I'm an <span class="engineering-student">Engineering Student  </span><span class="vertical-bar">&#124;</span></p>
+        </div>
+      </div>
+      <div class="photo-jpg" >
+        <img class="photo" src="IMG-20240502-WA0005.jpg">
+      </div>
+      <div class="about-info">&#10170;About info :</div>
+      <div class="about-information">
+        I'm a first-year Computer Engineering student at Fr.Conceicao Rodrigues College of Engineering, passionate about technologies and problem-solving.
+        I have a keen interest in coding,software development and exploring emerging technologies like artificial intelligence and cybersecurity.
+      </div>
+      <div class="about-information-2">
+        As an aspiring engineer student,I enjoy working on projects that challenge my analytical thinking and creativity. I am proficient in languages such as Python,C and I am constantly expanding my knowledge by experimenting with new programming tools and frameworks. With a strong foundation in engineering and a passion for technology, I look forward to going hands-on experience and making valuable contributions to the tech industry.
+      </div>
+      <div class="education">
+        &#10170;Education :
+      </div>
+      <div class="ssc">
+        <div class="std">SSC</div>
+        <div>
+          <p class="std-info">
+            I completed my SSC at BKM High School with distinction.
+            In my 10th standard, I achieved an impressive <u>86.80%</u> .
+          </p>
+        </div>
+      </div>
+      <div class="hsc">
+       <div class="std">HSC</div>
+       <div>
+        <p class="std-info">
+          I have completed my HSC from Jai Hind College with excellence.
+          In my 12th standard, I secured an impressive <u>90.33%</u> .
+        </p>
+       </div>
+      </div>
+      <div class="skills">
+        &#10170;Skills :
+      </div>
+      <div class="skills-info">
+        <p>I have good experience in Python and C Programming, along with front-end web development using HTML and CSS.</p>
+      </div>
+      <div style="width: 300px;display: inline-block;margin-top: 20px;">
+        <img class="python" src="icons8-python-48.png">
+      </div>
+      <div style="width: 300px;display: inline-block;margin-left: 198px;margin-top: 20px;">
+        <img class="python" src="icons8-c-programming-48.png">
+      </div>
+      <div style="width: 300px;display: inline-block;margin-top: 20px;">
+        <img class="python" src="icons8-html-48.png">
+      </div>
+      <div style="width: 300px;display: inline-block;margin-left: 198px;margin-top: 20px;">
+        <img class="python" src="icons8-css-48.png">
+      </div>
+      <div class="Certificates">
+        &#10170;Certificates :
+      </div>
+      
+      <div class="Certificates-photo">
+        <a href="https://drive.google.com/file/d/1B8GUAMME6HB3qpfzO9-6ECDjFk6kYb0u/view?usp=drivesdk" target="_blank">Introduction to Linear Algebra with  Matlab</a>
+      </div>
+      <div class="Certificates-photo">
+        <a href="https://drive.google.com/file/d/1rQ7GKv94E3slHimz466HFiqDBhNyqnzm/view?usp=drivesdk" target="_blank">Matlab Onramp</a>
+      </div>
+      <div class="Certificates-photo">
+        <a href="https://drive.google.com/file/d/1kEliRLDR25ZKOGk_BJ_IWlqgw7azQM4U/view?usp=drivesdk" target="_blank">Deep Learning Onramp</a>
+      </div>
+      <div class="Certificates-photo">
+        <a href="https://drive.google.com/file/d/1PmPI9CQg_DkvvdOZ-0bOCoP5b4aHPzn7/view?usp=drivesdk" target="_blank">Machine Learning Onramp</a>
+      </div>
+
+
+
+  </body>
+</html>
